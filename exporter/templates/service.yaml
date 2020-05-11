@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "exporter.fullname" . }}
+  labels:
+{{ include "exporter.labels" . | indent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: 9734
+      nodePort: 30101
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: {{ include "exporter.name" . }}
+    app.kubernetes.io/instance: {{ .Release.Name }}

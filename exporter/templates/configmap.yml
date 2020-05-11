@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: exporter-server-conf
+  labels:
+    name: exporter-server-conf
+data:
+  config.yml: |-
+{{ printf .Values.config | indent 4 }}
