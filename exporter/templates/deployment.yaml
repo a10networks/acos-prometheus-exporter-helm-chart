@@ -28,14 +28,20 @@ spec:
               subPath: config.yml
           ports:
             - containerPort: {{ .Values.service.port }}
-          # livenessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: http
-          # readinessProbe:
-          #   httpGet:
-          #     path: /
-          #     port: http
+          livenessProbe:
+            tcpSocket:
+              port: 9734
+            initialDelaySeconds: 5
+            periodSeconds: 60
+            successThreshold: 1
+            failureThreshold: 3
+          readinessProbe:
+            tcpSocket:
+              port: 9734
+            initialDelaySeconds: 10
+            periodSeconds: 60
+            successThreshold: 1
+            failureThreshold: 3
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
