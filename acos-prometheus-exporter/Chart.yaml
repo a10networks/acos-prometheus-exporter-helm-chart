@@ -1,7 +1,7 @@
 apiVersion: v1
 appVersion: "1.0"
 description: A Helm chart for Kubernetes
-name: exporter
+name: acos-prometheus-exporter
 version: 0.1.0
 home: https://github.com/a10networks/PrometheusExporter
 sources:
@@ -10,9 +10,11 @@ keywords:
 - a10-network
 - vThunder
 - prometheus
-- exporter
+- acos-prometheus-exporter
 maintainers:
 - email: swapnil.kashid@a10networks.com
   name: swapnilkashid-10
-- name: devendrabhat-a10
+- name: devendrabhatt-a10
   email: devendra.bhatt@a10networks.com
+- name: smitaraut-a10
+  email: smita.raut@a10networks.com
