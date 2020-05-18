@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: swapnilkashidgslab/prometheus-exporter
-  tag: v11
+  repository: a10networks/acos-prometheus-exporter
+  tag: latest
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -50,6 +50,3 @@ tolerations: []
 affinity: {}
 
 config: |-
-  
-dockerconfigjson: 
-
