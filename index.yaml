@@ -23,6 +23,6 @@ entries:
     sources:
     - https://github.com/a10networks/PrometheusExporter
     urls:
-    - https://github.com/a10networks/prometheus-exporter-helm/docs/acos-prometheus-exporter-0.1.0.tgz
+    - https://a10networks.github.io/prometheus-exporter-helm/acos-prometheus-exporter-0.1.0.tgz
     version: 0.1.0
 generated: "2020-05-18T15:23:49.737476824+05:30"
