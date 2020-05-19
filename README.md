@@ -30,8 +30,16 @@ log:
   
 To use the Heml package, run following commands.
 
- ```
-heml istall 
-
+Add Helm Repo to local setup
 ```
+helm repo add a10-prometheus-exporter https://a10networks.github.io/prometheus-exporter-helm/
+```
+Install the package to local 
+```
+helm install a10-prometheus-exporter/acos-prometheus-exporter --version 0.1.0
+```
+Check the Status using kubectl command
+```
+kubectl get all
+``` 
 
