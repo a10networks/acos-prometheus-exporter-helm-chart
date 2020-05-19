@@ -1,4 +1,4 @@
-# prometheus-exporter-helm
+# acos-prometheus-exporter-helm-chart
 
 This repository contains Helm package for A10 ACOS Prometheus exporter.
 
