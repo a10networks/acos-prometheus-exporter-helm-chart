@@ -12,6 +12,8 @@ entries:
     - vThunder
     - prometheus
     - acos-prometheus-exporter
+    - a10
+    - acos
     maintainers:
     - email: swapnil.kashid@a10networks.com
       name: swapnilkashid-10
@@ -23,6 +25,6 @@ entries:
     sources:
     - https://github.com/a10networks/PrometheusExporter
     urls:
-    - https://a10networks.github.io/acos-prometheus-exporter-helm-chart/acos-prometheus-exporter-0.1.0.tgz
+    - https://a10networks.github.io/acos-prometheus-exporter-helm-chart/acos-prometheus-exporter-helm-chart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-05-18T15:23:49.737476824+05:30"
