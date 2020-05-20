@@ -42,4 +42,3 @@ Check the Status using kubectl command
 ```
 kubectl get all
 ``` 
-
