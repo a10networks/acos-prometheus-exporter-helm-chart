@@ -3,9 +3,9 @@ entries:
   acos-prometheus-exporter-helm-chart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-21T14:43:14.741557541+05:30"
+    created: "2020-05-21T15:26:07.81591629+05:30"
     description: A Helm chart of A10 acos prometheus exporter for Kubernetes Setup.
-    digest: 1561c1a7ecb718c2bc5596af0c4dfc245ef9df47f06bad6c2286aa163cf362ab
+    digest: 33c141a88773a5258360e9f800b4dc042bf29604269572d0206aa3d725a05303
     home: https://github.com/a10networks/PrometheusExporter
     keywords:
     - a10-network
@@ -27,4 +27,4 @@ entries:
     urls:
     - https://a10networks.github.io/acos-prometheus-exporter-helm-chart/acos-prometheus-exporter-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-21T14:43:14.720104176+05:30"
+generated: "2020-05-21T15:26:07.805278962+05:30"
