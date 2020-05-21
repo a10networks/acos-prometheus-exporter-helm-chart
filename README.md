@@ -37,8 +37,14 @@ Install the package to local
 ```
 helm install --name a10-prometheus-exporter a10-prometheus-exporter/acos-prometheus-exporter --set-file config=config.yaml
 ```
-Check the Status using kubectl command
+Check the Status using kubectl command for Kubernetes
 ```
 kubectl get all
 ``` 
 
+OR
+
+Check the Status using oc command for OpenShift
+```
+oc get all
+``` 
