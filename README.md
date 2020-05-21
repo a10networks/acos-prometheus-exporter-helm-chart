@@ -1,10 +1,9 @@
-# prometheus-exporter-helm
+# acos-prometheus-exporter-helm-chart
 
 This repository contains Helm package for A10 ACOS Prometheus exporter.
 
 ## More about ACOS Prometheus exporter
 The ACOS Prometheus exporter module is responsible for collecting ACOS device stats as metrics. 
-- It internally invokes the target ACOS device axAPIs to obtain those statistics and then exposes the respective metrics via HTTP(s) which can be pulled by a Prometheus server. 
 - Any visualization client like Grafana can be configured to query the stats from Prometheus server, plot them, set thresholds, configure alerts, create heat maps, generate tables etc. as needed to analyze the ACOS stats.
 - The Prometheus server works on a pull-based model and periodically queries the exporter based on interval specified. It runs by default on port 9090. 
 - End users/systems can directly communicate with the Prometheus server or create and view dashboards using a visualization/analytics tools like Grafana.
@@ -42,3 +41,4 @@ Check the Status using kubectl command
 ```
 kubectl get all
 ``` 
+
