@@ -7,7 +7,7 @@ home: https://github.com/a10networks/PrometheusExporter
 sources:
 - https://github.com/a10networks/PrometheusExporter
 keywords:
-- a10-network
+- a10-networks
 - vThunder
 - prometheus
 - acos-prometheus-exporter
